@@ -4,41 +4,41 @@ Befolge die folgenden Schritte, um die Wetter-App auf deinem lokalen Rechner ein
 Voraussetzungen
 Stelle sicher, dass du Folgendes installiert hast:
 
-Node.js (v14 oder höher)
-npm (Node Package Manager)
-Schritt-für-Schritt Anleitung
-Repository klonen:
+-Node.js (v14 oder höher)
+-npm (Node Package Manager)
+-Schritt-für-Schritt Anleitung
+-Repository klonen:
 
-bash
-Code kopieren
-git clone https://github.com/Mariusdeveanu/wtterapp.git
-cd dein-repository
+-bash
+-Code kopieren
+-git clone https://github.com/Mariusdeveanu/wtterapp.git
+-cd dein-repository
 Abhängigkeiten installieren: Führe den folgenden Befehl aus, um alle benötigten Pakete zu installieren:
 
-bash
-Code kopieren
-npm install
+-bash
+-Code kopieren
+-npm install
 Erstelle eine .env Datei: Im Hauptverzeichnis deines Projekts erstellst du eine .env-Datei mit folgendem Inhalt:
 
-bash
-Code kopieren
-API_KEY=dein_openweather_api_key
-Ersetze dein_openweather_api_key durch deinen tatsächlichen API-Schlüssel von OpenWeatherMap.
+-bash
+-Code kopieren
+-API_KEY=dein_openweather_api_key
+-Ersetze dein_openweather_api_key durch deinen tatsächlichen API-Schlüssel von OpenWeatherMap.
 
-Starte die Anwendung: Um den Server zu starten, führe folgenden Befehl aus:
+-Starte die Anwendung: Um den Server zu starten, führe folgenden Befehl aus:
 
-bash
-Code kopieren
+-bash
+-Code kopieren
 npm start
 Die Anwendung wird unter der Adresse http://localhost:8080 ausgeführt.
 
-API-Schlüssel Einrichtung
+-API-Schlüssel Einrichtung
 Du benötigst einen API-Schlüssel von OpenWeatherMap, um Wetterdaten abzurufen. Registriere dich hier, falls du noch keinen API-Schlüssel hast.
 Sobald du den Schlüssel hast, füge ihn in deine .env-Datei wie oben gezeigt ein.
 Ausführen der Anwendung
 Sobald alles eingerichtet ist, wird die Anwendung die Wetterdaten auf deinem lokalen Rechner unter http://localhost:8080 bereitstellen. Du kannst dann den Namen einer Stadt in das Suchformular eingeben, um die Wetterdaten für diesen Ort anzuzeigen.
 
-Verfügbare Befehle
+-Verfügbare Befehle
 npm start: Startet den Server und stellt die Anwendung unter http://localhost:8080 bereit.
 npm install: Installiert alle Abhängigkeiten, die in der package.json-Datei aufgelistet sind.
 
