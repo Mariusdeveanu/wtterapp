@@ -11,7 +11,7 @@ Repository klonen:
 
 bash
 Code kopieren
-git clone https://github.com/dein-username/dein-repository.git
+git clone https://github.com/Mariusdeveanu/wtterapp.git
 cd dein-repository
 Abhängigkeiten installieren: Führe den folgenden Befehl aus, um alle benötigten Pakete zu installieren:
 
